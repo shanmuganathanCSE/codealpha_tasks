@@ -1,8 +1,8 @@
 import numpy as np
 from music21 import stream, note, chord
-from tensorflow.keras.models import Sequential # type: ignore
-from tensorflow.keras.layers import LSTM, Dropout, Dense, Activation # type: ignore
-from tensorflow.keras.utils import to_categorical # type: ignore
+from tensorflow.keras.models import Sequential 
+from tensorflow.keras.layers import LSTM, Dropout, Dense, Activation 
+from tensorflow.keras.utils import to_categorical 
 
 
 notes = ['C4', 'D4', 'E4', 'F4', 'G4', 'A4', 'B4', 'C5',
